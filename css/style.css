@@ -291,6 +291,97 @@ header .navbar ul li a:hover{
     display: inline-block;
 }
 
+h2, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /* Remove underlines from links */
+}
+/* Style the project gallery */
+.project{
+    background-color: #333;
+    border:  #f9ca24;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.project img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.project h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style project links */
+.project a {
+    display: block; /* Make links full width of the project container */
+    background-color: #333; /* Background color for links */
+    color: #fff; /* Text color for links */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.project a:hover {
+    background-color: #f9ca24; /* Background color on hover */
+}
+
+/* Reset default margin and padding */
+form, label, input, textarea, button, p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #f9ca24;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
 
 @media(max-width:1200px){
     html{
